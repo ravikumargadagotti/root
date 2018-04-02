@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd" >
+<log4j:configuration>
+
+	<appender name="STDOUT" class="org.apache.log4j.ConsoleAppender">
+		<param name="Target" value="System.out" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<!-- 
+			<param name="ConversionPattern"
+				value="[%d{ISO8601}] %-5p [%c] %m %n" />
+			-->
+			<param name="ConversionPattern" value="%-5p [%c] %m %n" />
+		</layout>
+	</appender>
+	
+	<appender name="STDERR" class="org.apache.log4j.ConsoleAppender">
+		<param name="Target" value="System.err" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="[%d{ISO8601}] %-5p [%c] %m %n" />
+		</layout>
+		<filter class="org.apache.log4j.varia.LevelRangeFilter">
+			<param name="LevelMin" value="ERROR" />
+			<param name="LevelMax" value="FATAL" />
+		</filter>
+	</appender>
+	
+	<appender name="portal"
+		class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="../logs/developing-logs.txt" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<param name="Append" value="true" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="[%p] %d %c %M - %m%n" />
+		</layout>
+	</appender>
+
+	<!--                          -->
+	<!-- Declare the SMTPAppender -->
+	<!--                          -->
+	<!-- 
+	<appender name="EMAIL" class="org.apache.log4j.net.SMTPAppender">
+		<param name="BufferSize" value="512" />
+		<param name="SMTPHost" value="smtp.mail.yahoo.com" />
+		<param name="From" value="whoever@wherever.com" />
+		<param name="To" value="whoever@wherever.com" />
+		<param name="Subject"
+			value="[SMTPAppender] Application message" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="[%d{ISO8601}]%n%n%-5p%n%n%c%n%n%m%n%n" />
+		</layout>
+		<filter class="org.apache.log4j.varia.LevelRangeFilter">
+			<param name="LevelMin" value="FATAL" />
+			<param name="LevelMax" value="FATAL" />
+		</filter>
+	</appender>
+	 -->
+
+    <logger name="com" additivity="false">
+		<level value="trace" />
+		<appender-ref ref="portal" />
+		<appender-ref ref="STDOUT" />
+	</logger>
+	
+	
+		
+	<!-- ** -->
+	
+	<root>
+		<level value="ERROR" />
+		<appender-ref ref="STDERR" />
+		<!--  <appender-ref ref="EMAIL" /> -->
+	</root>
+
+
+</log4j:configuration>
