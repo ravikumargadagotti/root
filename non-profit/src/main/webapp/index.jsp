@@ -155,13 +155,16 @@
         </div>
         <div class="container">
             <div class="row what">
+            <a href="pagesInformation/branding.jsp">
                 <div class="col-md-3 col-sm-4 webdesign"  data-sr='wait 0.1s, then enter left and hustle 50px over 0.8s'>
                     <div class="icons">
                         <i class="fa fa-file-text-o fa-3x file-text-icon"></i>
                     </div>
-                    <h2>Webdesign</h2>
+                    <h2>Web design</h2>
                     <p>The best possible web design you can think of.</p>
                 </div>
+                </a>
+                <a href="pagesInformation/SEO.jsp">
                 <div class="col-md-3 col-sm-4 copywriting" data-sr='wait 0.1s, then enter bottom and hustle 50px over 0.8s'>
                     <div class="icons">
                         <i class="fa fa-clipboard fa-3x file-text-icon"></i>
@@ -169,6 +172,8 @@
                     <h2>SEO</h2>
                     <p>We can do what others can't do.</p>
                 </div>
+                </a>
+                <a href="pagesInformation/codingSolution.jsp">
                 <div class="col-md-3 col-sm-4 coding" data-sr='wait 0.1s, then enter right and hustle 50px over 0.8s'>
                     <div class="icons">
                         <i class="fa fa-file-code-o fa-3x file-text-icon"></i>
@@ -177,6 +182,8 @@
                     <p>All your coding needs can be done here.
                     </p>
                 </div>
+                </a>
+                <a href="pagesInformation/branding.jsp">
                 <div class="col-md-3 col-sm-4 coding" data-sr='wait 0.1s, then enter right and hustle 50px over 0.8s'>
                     <div class="icons">
                         <i class="fa fa-diamond fa-3x file-text-icon"></i>
@@ -185,6 +192,7 @@
                     <p>Give a new look to your brand.
                     </p>
                 </div>
+                </a>
             </div>
         </div>
     </section>
@@ -194,7 +202,7 @@
 <div id="gallery" data-sr='wait 0.1s, then enter bottom and hustle 20px over 1s'>
     <a href="#openModal1">
         <figure class="col-md-3 col-sm-6 col-xs-12 images-gallery">
-            <img class="img gallery" src="images/works/1.jpg" alt="" />
+            <img class="img gallery" src="images/works/o365tech8.png" alt="" />
             <figcaption>
                 <h1>o365 Tech</h1>
                 <img class="lupa" src="images/lupa.png" alt=""/>
@@ -232,7 +240,7 @@
 <div id="openModal1" class="modalDialog">
     <div>
         <a href="#close" title="Close" class="close">X</a>
-        <img class="img" src="images/works/1.jpg" alt="" />
+        <img class="img" src="images/works/o365tech8.png" alt="" />
     </div>
 </div>
 
@@ -269,7 +277,7 @@
                         <img class="img img-circle photo" src="images/profile.png" alt="ravi kumar gadagotti" />
                         <h2>Ravi Kumar Gadagotti</h2>
                         <div class="testimonial-border"></div>
-                        <h4>Web Developer</h4>
+                        <h4>Software Developer(Java)</h4>
                         <p class="text-aboutus" >I like more Games.</p>                     
                     </div>
                 </div>                         
@@ -302,7 +310,7 @@
 
 <script>
     $('#example').countdown({
-        date: '04/01/2018 23:59:59'
+        date: '05/01/2018 23:59:59'
     }, function () {
         alert('We are ready!');
     });
