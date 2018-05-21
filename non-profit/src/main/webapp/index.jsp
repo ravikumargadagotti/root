@@ -70,19 +70,19 @@
                         <h3 class="slider" data-sr='wait 1s, then enter left and hustle 100px over 0.6s'>D </h3>
                         <h3 data-sr='wait 1.2s, then enter left and hustle 60px over 0.6s'>E </h3>
                         <h3 data-sr='wait 1.4s, then enter left and hustle 60px over 0.6s'>V </h3>
-                        <h3 data-sr='wait 1.8s, then enter left and hustle 60px over 0.6s'>L </h3>
-                        <h3 data-sr='wait 2.2s, then enter left and hustle 60px over 0.6s'>O </h3>
-                        <h3 data-sr='wait 2.4s, then enter left and hustle 60px over 0.6s'>P </h3>
-                        <h3 data-sr='wait 2.6s, then enter left and hustle 60px over 0.6s'>I </h3>
-                        <h3 data-sr='wait 3s, then enter left and hustle 60px over 0.6s'>N </h3>
-                        <h3 data-sr='wait 3.2s, then enter left and hustle 60px over 0.6s'>G </h3>
-                        <h3 data-sr='wait 3.4s, then enter left and hustle 60px over 0.6s'>- </h3>
-                        <h3 data-sr='wait 3.8s, then enter left and hustle 60px over 0.6s'>S </h3>
-                        <h3 data-sr='wait 4s, then enter left and hustle 60px over 0.6s'>I </h3>
-                        <h3 data-sr='wait 4.2s, then enter left and hustle 60px over 0.6s'>T </h3>
-                        <h3 data-sr='wait 4.8s, then enter left and hustle 60px over 0.6s'>E </h3>
+                        <h3 data-sr='wait 1.6s, then enter left and hustle 60px over 0.6s'>L </h3>
+                        <h3 data-sr='wait 1.8s, then enter left and hustle 60px over 0.6s'>O </h3>
+                        <h3 data-sr='wait 2.0s, then enter left and hustle 60px over 0.6s'>P </h3>
+                        <h3 data-sr='wait 2.2s, then enter left and hustle 60px over 0.6s'>I </h3>
+                        <h3 data-sr='wait 2.4s, then enter left and hustle 60px over 0.6s'>N </h3>
+                        <h3 data-sr='wait 2.6s, then enter left and hustle 60px over 0.6s'>G </h3>
+                        <h3 data-sr='wait 2.8s, then enter left and hustle 60px over 0.6s'>- </h3>
+                        <h3 data-sr='wait 3.0s, then enter left and hustle 60px over 0.6s'>S </h3>
+                        <h3 data-sr='wait 3.2s, then enter left and hustle 60px over 0.6s'>I </h3>
+                        <h3 data-sr='wait 3.4s, then enter left and hustle 60px over 0.6s'>T </h3>
+                        <h3 data-sr='wait 3.6s, then enter left and hustle 60px over 0.6s'>E </h3>
                     </div>
-                    <p data-sr='wait 3.6s, then enter bottom and hustle 50px over 2s'>
+                    <p data-sr='wait 4.0s, then enter bottom and hustle 50px over 2s'>
                         Check what we can do!
                     </p>
                 </div>
@@ -95,8 +95,8 @@
                     <h5>Perfect start</h5>
                     <h4>Want to know more about us?</h4>
                     <div class="button-yt">
-                        <p><a class="btn btn-primary btn-lg" href="#about" role="button" data-anijs="if: mouseover, do: pulse animated">About Us</a></p>
-                        <p><a class="btn btn-primary0 btn-lg" href="#works" role="button" data-anijs="if: mouseover, do: pulse animated">Our Works</a></p>
+                        <p><a class="btn btn-primary btn-lg page-scroll" href="#about" role="button" data-anijs="if: mouseover, do: pulse animated">About Us</a></p>
+                        <p><a class="btn btn-primary0 btn-lg page-scroll" href="#works" role="button" data-anijs="if: mouseover, do: pulse animated">Our Works</a></p>
                     </div>
                 </div>
             </div>
@@ -123,7 +123,7 @@
                 <div data-sr='wait 0.1s, then enter left and hustle 125px over 1.5s'>
                     <h2>About</h2>
                     <div class="testimonial-border-white"></div>
-                    <p id="text-aboutus" >We don't have anything to tell you, about us.
+                    <p id="text-aboutus" >We don't have anything to tell you, about us. But we will narate a story and tell you about us so amazingly that you have to rethink before believing anyone's word. So, here is the story, we were born in place where no one uses there brain, since we are the creators we have to start thinking so inturn we have to use our brain, which irritated them and they kicked us out, so here we are developing, creating and inventing new things. Please dont ask what we have invented.
                     </p>                    
                 </div>
             </div>
@@ -291,12 +291,12 @@
             <div class="social-icon">
                 <ul class="social-icon">                    
                     <li class="icon">
-                        <a href="#" target="_blank" id="footerFacebook"></a>
+                        <a href="https://www.facebook.com/groups/620447301636310" target="_blank" id="footerFacebook"></a>
                     </li>            
                 </ul>
             </div>
             <div id="footer-text">
-               <h4>Copyright@ developing-site</h4>
+               <h4>&copy; 2018 developing-site.com</h4>
             </div>
         </div>
     </div>
@@ -310,7 +310,7 @@
 
 <script>
     $('#example').countdown({
-        date: '05/01/2018 23:59:59'
+        date: '06/05/2018 23:59:59'
     }, function () {
         alert('We are ready!');
     });
