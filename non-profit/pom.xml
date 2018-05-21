@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.nonprofit.charity</groupId>
-	<artifactId>non-profit</artifactId>
+	<artifactId>ROOT</artifactId>
 	<version>2.0</version>
 	<packaging>war</packaging>
 
-	<name>non-profit</name>
-	<description>non profit payment setup</description>
+	<name>ROOT</name>
+	<description>Personal web application</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
