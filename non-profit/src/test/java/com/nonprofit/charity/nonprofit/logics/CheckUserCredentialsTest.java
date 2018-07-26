@@ -82,7 +82,7 @@ public class CheckUserCredentialsTest {
 	
 	@Test
 	public void ifUserNameAndPasswordIsNotNullAndCorrect() {
-		String userName="test7";
+		String userName="test2";
 		String password="password";
 		boolean result=checkUserCredentials.loginCheck(userName, password);
 		assertEquals(true, result);

@@ -16,7 +16,7 @@ import org.springframework.scheduling.annotation.Scheduled;
 
 import com.nonprofit.charity.nonprofit.email.SendEmail;
 
-@EnableScheduling
+//@EnableScheduling
 @ManagedBean
 public class SchedularThread {
 
@@ -27,7 +27,7 @@ public class SchedularThread {
 	@Autowired
 	SendEmail sendEmail;
 
-	@Scheduled(cron = "0 0 10 1 * ?")
+	//@Scheduled(cron = "0 48 12 1 * ?")
 	public void something() {
 		String lotterySystemGroupName = null;
 		// Get list of lottery's

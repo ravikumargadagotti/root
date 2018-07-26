@@ -6,10 +6,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="To develop a website all you need to do is visit our website.">
+    <meta name="description" content="To develop a website all you need to do is visit our website. But we also develop the website by keeping SEO in mind and Brand value.">
     <meta name="keywords" content="developing-site.com,developing sites,developing-site,developing website">
 	<meta http-equiv="Cache-control" content="public">
-    <title>Developing-Site</title>
+    <title>Developing-Site - To Design Your Site</title>
 	
 <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- favicon -->
@@ -29,6 +29,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:light' rel='stylesheet' type='text/css'>
 </head>
 <body data-spy="scroll" data-target=".navbar-fixed-top">
+ <h1><input type=hidden value=Developing-site></h1>
 <div id="preloader">
     <div id="status">&nbsp;</div>
 </div>
@@ -173,7 +174,7 @@
                     <p>We can do what others can't do.</p>
                 </div>
                 </a>
-                <a href="pagesInformation/codingSolution.jsp">
+                <a href="pagesInformation/codingSolutions.jsp">
                 <div class="col-md-3 col-sm-4 coding" data-sr='wait 0.1s, then enter right and hustle 50px over 0.8s'>
                     <div class="icons">
                         <i class="fa fa-file-code-o fa-3x file-text-icon"></i>
@@ -204,7 +205,7 @@
         <figure class="col-md-3 col-sm-6 col-xs-12 images-gallery">
             <img class="img gallery" src="images/works/o365tech8.png" alt="" />
             <figcaption>
-                <h1>o365 Tech</h1>
+                <h2>o365 Tech</h2>
                 <img class="lupa" src="images/lupa.png" alt=""/>
             </figcaption>
         </figure>
@@ -213,7 +214,7 @@
         <figure class="col-md-3 col-sm-6 col-xs-12 images-gallery image">
             <img class="img gallery" src="images/works/2.jpg" alt="" />
             <figcaption>
-                <h1>CFM Enterprises</h1>
+                <h2>CFM Enterprises</h2>
                 <img class="lupa" src="images/lupa.png" alt=""/>
             </figcaption>
         </figure>
@@ -222,7 +223,7 @@
         <figure class="col-md-3 col-sm-6 col-xs-12 images-gallery">
             <img class="img gallery" src="images/works/3.jpg" alt="" />
             <figcaption>
-                <h1>Spectrum</h1>
+                <h2>Spectrum</h2>
                 <img class="lupa" src="images/lupa.png" alt=""/>
             </figcaption>
         </figure>
@@ -231,7 +232,7 @@
         <figure class="col-md-3 col-sm-6 col-xs-12 images-gallery">
             <img class="img gallery" src="images/works/4.jpg" alt="" />
             <figcaption>
-                <h1>D2R</h1>
+                <h2>D2R</h2>
                 <img class="lupa" src="images/lupa.png" alt=""/>
             </figcaption>
         </figure>
